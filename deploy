@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo Deploying Reports Website
+
+/usr/local/erlware/bin/sinan dist
+/usr/local/erlware/bin/faxien ir 
+
+cp -R lib/tabling/priv/wwwroot /opt/reports
+

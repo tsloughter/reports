@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Links */
+*{margin:0px;padding:0px;}
+ul#headwrapList li a.Logoheader{padding:16px 60px; text-decoration:none;}
+ul#headwrapList li a.header:link {color:#0073b7; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:none;}
+ul#headwrapList li a.header:visited {color:#0073b7; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:none;}
+ul#headwrapList li a.header:hover {color:#71a4c2; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:underline;}
+ul#headwrapList li a.header:active {color:#0073b7; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:none;}
+ul#headwrapList li a.general:link {color:#0073b7; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:none;}
+ul#headwrapList li a.general:visited {color:#0073b7; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:none;}
+ul#headwrapList li a.general:hover {color:#71a4c2; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:underline;}
+ul#headwrapList li a.general:active {color:#0073b7; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:none;}
+h1 {color:#0073b7;font-size:22px; font-weight:lighter; margin:0px 0px 20px 0px;padding:0px;}
+h2 {color:#0073b7;font-size:16px; font-weight:lighter; margin:0px;padding:0px;}
+h3 {color:#0073b7;font-size:16px; font-weight:lighter; margin:0px;padding:0px;margin:10px 0xp;}
+span.subHead{color:#000000;font-size:20px;}
+span.subHead2{color:#000000;font-family:Tahoma;font-size:30px;font-weight:bold;}
+span.subHead3{float:left;color:#788895;font-family:Arial;font-size:20px;font-weight:bold;margin:10px 0px;}
+span.subHead4{float:left;color:#5697be;font-family:Arial;font-size:12px;font-weight:bold;margin:10px 0px;width:100%;}
+/* Links */
+html, body {margin: 0px;padding: 0px;border: 0px;min-height:1000px;}
+.clear {clear:both;}
+body { background-color: #fff; /* change the color to your background color */ }
+#main { width: 80%;max-width: 1000px;background-color:#fff;margin: 0em auto;padding: 0em; border:0px solid black; font-family:Arial, Helvetica, sans-serif; font-weight:lighter; font-size:16px; color:#798b95;} 
+#headWrap { background-image:url(../img/headerBg.gif);background-repeat:no-repeat;height:39px;width:939px;}
+#headwrapList {line-height:32px;list-style:none;float:left;margin:0px; padding:0px;}
+#headwrapList li:first-child { list-style:none;float:left;padding: 0px 0px 0px 0px;list-style-image:url(../img/navdiv.gif) 10px 0px 0px 0px; list-style-position:outside;margin:0px 0px 0px 0px;border-right:0px solid #e4e5e6 !important;}
+#headwrapList li {border-right:1px solid #e4e5e6; list-style:none;float:left;padding:0px 6px; list-style-image:url(../img/navdiv.gif) 10px 0px 0px 0px; list-style-position:inside;margin:0 6px 0px 7px;}
+#headwrapList li#lastLi{ border-right:0px solid #e4e5e6 !important;}
+#oneCol {padding:36px 0px 0px 122px;}
+.headers {}
+#additionalInfoProgressWrap {float:left;width:512px;margin:30px 0px 0px 13px;}
+#additionalInfoProgressWrap p {float:left;margin:10px 0px;font-family:Arial;color:#647782;font-size:14px;}
+#additionInfoProgressBar {float:left;width:480px;height:25px;background-color:#f6f6f6;}
+#additionInfoProgressBar.ui-widget-content {background-image:none !important;background-color:#f6f6f6 !important;}
+#additionInfoProgressBar .ui-widget-header {background-image:none !important;background-color:#1779b8 !important;border:1px solid #DDDDDD !important;}
+#additionalInfoFormWrap {float:left;width:510px;margin-top:50px;}
+#additionalInfoFormWrap h3.ui-helper-reset {padding:10px 15px 10px 30px !important;font-size:16px !important;font-weight:bold;}
+#additionalInfoFormWrap div.ui-helper-reset {font-size:16px !important;font-weight:bold;}
+#additionalInfoFormWrap div.ui-widget-content {color:#999999 !important;border:0px solid #ffffff;padding:1em 0em !important;}
+#additionalInfoFormWrap .ui-accordion .ui-accordion-content {position:inherit !important;}
+#additionalInfoFormWrap div.helpDivWrap {position:absolute;margin-left:540px;width:280px;background-color:#fafafa;z-index:3000;}
+#additionalInfoFormWrap div.newDivWrap {float:left;position:absolute;margin-left:540px;width:280px;background-color:Transparent;z-index:3000;}
+#additionalInfoFormWrap div.helpDivWrap h2 {font-weight:normal;font-size:18px;color:#000000;padding:10px 20px;}
+#additionalInfoFormWrap div.helpDivWrap p {padding:0px 20px 10px;font-family:Arial;font-size:14px;color:#647782;}
+#additionalInfoFormWrap div.newDivWrap img {float:left;margin:10px;width:210px;height:210px;}
+#additionalInfoFormWrap div.newDivWrap img.loading {float:left;margin:10px;width:210px; height:210px;background-image:url(../img/loading.gif);background-position:center center;background-repeat:no-repeat;}
+.ajaxImageRemoveConfirm {float:left;line-height:210px;text-decoration:none; color:#d42222 !important;font-family:Arial;font-size:16px;font-weight:bold;}
+.saveBtn {width:93%;padding:10px 0px; text-align:right;}
+#membershipFormWrap {padding:35px 0px 0px 20px;padding-bottom:10px;}
+#membershipFormWrap .col1 {float:left;width:320px;height:200px; border-right:1px dotted #f1f1f1;}
+#membershipFormWrap .col2 {float:left;width:320px;height:200px;padding:0 0 0 35px;}
+#membershipWhatisIt {width:735px;}
+#membershipWhatisIt .membershipWhatisDesc {background-color:#f8fafb;}
+#membershipWhatisIt .membershipWhatisDesc p {color:#81929b;font-size:16px;padding:10px;}
+#applicationFormWrap {padding:35px 0px 0px 20px;border-bottom:1px dotted #f2f2f2;padding-bottom:10px;}
+#applicationFormWrap div.row1Wide {float:left;width:500px;}
+#applicationFormWrap div.row2Wide {float:left;margin-left:30px;width:250px;}
+#applicationUserWork {padding:15px 0px 0px 20px;}
+#applicationUserWork div.userProjects {background-color:#f8fafb;width:480px;}
+#applicationUserWork div.userProjects ul {width:100%;padding:15px;list-style-type: none;}
+#applicationUserWork div.userProjects ul li {display:inherit;padding:1px 0px;}
+#applicationUserWork div.userProjects ul li a {color:#549ec9;text-decoration:none;font-weight:bold;font-family:Arial;font-size:14px;}
+#applicationUserWork div.userProjects ul li a:hover {color:#549ec9;text-decoration:underline;font-weight:bold;font-family:Arial;font-size:14px;}
+.masterSiteNavi {float:left;padding:0px 0px 0px 146px;}
+.masterSiteNavi a {color:#dbdbdb;font-size:13px;font-family:Arial;text-decoration:none;}
+.masterSiteNavi a:hover {color:#dbdbdb;font-size:13px;font-family:Arial;text-decoration:underline;}
+#downloadProjectWrapper {float:left;width:715px;}
+#downloadProjectLogo {width:45px;height:45px;}
+#downloadCol1 {float:left;width:560px;}
+#downloadCol2 {float:left;padding:5px 0px 5px 40px;width:114px;border-left:1px solid #c8c8c8;}
+#downloadCol2 ul {list-style-type: none;margin:0px;padding:0px;}
+#downloadCol2 ul li {padding:1px 0px;}
+#downloadCol2 ul li a, #downloadCol2 ul li a:visited, #downloadCol2 ul li a:link {color:#C9C9C9;font-size:15px;font-weight:bold;text-decoration:none;}
+#downloadCol2 ul li a:hover, #downloadCol2 ul li a:active {color:#0075bb;font-size:15px;font-weight:bold;text-decoration:none;}
+#downloadProjectInfo{margin-top:20px;}
+#downloadProjectInfo p{padding:3px 0px;	}
+#downloadProjectInfo h3 {font-size:18px;color:#be1f35;padding:5px 0px;}
+#downloadProjectInfo h2 {font-size:18px;color:#0070b8;padding:10px 0px;}
+
+#homeMainRow1 {float:left;width:735px;}
+#homeMainRow1 .homeMailCols {float:left;width:170px;margin-right:25px;text-align:center;}
+#homeMainRow1 .homeMailCols p{text-align:left;color:#647782;font-size:13px;}
+#homeMainRow1 .homeMailCols .subHead {float:left;padding:10px 0px;text-align:center;width:90%;}
+
+#homeMainRow2 {float:left;width:675px;background-color:#f2f6f9;margin-top:35px;padding:10px 30px;}
+#homeMainRow2 .subHead3{color:#565656 !important;font-size:26px;font-weight:normal;}
+#homeMainRow2 .homeSearchText{float:left;width:290px;color:#647782;}
+#homeMainRow2 .homeSearchText a{color:#2285c2;text-decoration:none;}
+#homeMainRow2 .homeSearchText a:hover{color:#2285c2;text-decoration:underline;}
+#homeMainRow2 .homeSearchBoxWrap {float:left;width:345px;background-image:url(../img/erlHomeSearchBg.jpg);background-position:left top; background-repeat:no-repeat;margin:0px 0px 0px 30px;}
+#homeMainRow2 .homeSearchBoxWrap input[type=text] {background-color:transparent;border:0px solid #FFFFFF;float:left;font-size:25px;margin:10px 5px 10px 21px;padding:11px;width:244px;}
+#homeMainRow2 .homeSearchBoxWrap2 {background-color:transparent;border:0px solid #333333;float:left;margin:13px 0px 0px;padding:17px 15px;background-image:url(../img/erlHomeSearchBtn.jpg);background-position:right top; background-repeat:no-repeat;cursor:pointer;}
+#homeMainRow2 .homeSearchBoxWrap span.first {float:left;margin:5px 5px 5px 10px;color:#9fa1a3;}
+#homeMainRow2 .homeSearchBoxWrap span {float:left;margin:5px 10px;color:#9fa1a3;}
+
+#homeMainRow3 {float:left;width:675px;background-color:#e1eaf0;padding:10px 30px;}
+#homeMainRow3 .homeReleasesCol {float:left;width:337px;}
+#homeMainRow3 .homeReleasesCol ul {float:left;list-style-type: none;margin:0px 0px 0px 15px;padding:0px;width:90px;}
+#homeMainRow3 .homeReleasesCol ul li {padding:1px 0px;}
+#homeMainRow3 .homeReleasesCol ul li a,
+#homeMainRow3 .homeReleasesCol ul li a:visited,
+#homeMainRow3 .homeReleasesCol ul li a:link {color:#647782;text-decoration:none;font-size:12px;}
+#homeMainRow3 .homeReleasesCol ul li a:hover,
+#homeMainRow3 .homeReleasesCol ul li a:active {color:#647782;text-decoration:underline;font-size:12px;}
+#homeMainRow3 .homeReleasesCol ul li a.last, 
+#homeMainRow3 .homeReleasesCol ul li a.last:visited, 
+#homeMainRow3 .homeReleasesCol ul li a.last:link {color:#5697be;text-decoration:none;font-size:12px;}
+#homeMainRow3 .homeReleasesCol ul li a.last:hover,
+#homeMainRow3 .homeReleasesCol ul li a.last:active {color:#5697be;text-decoration:underline;font-size:12px;}
+#homeMainFooter {float:left;width:715px;margin-top:40px;padding:10px}
+#homeMainFooter .subHead2{font-size:22px;}
+#homeMainFooter .communityProjects {float:left;margin-top:20px;width:520px;}
+#homeMainFooter .communityProjects .communitySec {float:left;width:240px;margin:0px 7px;}
+#homeMainFooter .communityProjects .communitySec .imgWrapper {float:left;width:110px;height:42px;border:1px solid #e4e4e4;margin:0px 3px 6px;}
+#homeMainFooter .communityProjects .communitySec .imgWrapper img {float:left;}
+/* Forms */
+.inputSubmitCss {background-color:Transparent;background-image:url(../img/inputSubmit.png);background-position:center center;background-repeat:no-repeat;border:0px solid #ffffff;height:29px;width:113px;color:#ffffff;font-size:15px;cursor:pointer;}
+.tableForm {margin-bottom:20px;}
+.formSelect {width:350px; border:1px solid #484848; padding:0px 0px 0px 6px; color:#656565; font-weight:lighter; font-size:14px; background-color:#fcfcfc;}
+.formTextarea {width:350px; border:1px solid #484848; padding:5px 0px 0px 6px; color:#656565; font-weight:lighter; font-size:14px; background-color:#fcfcfc;}
+.formInput {width:200px; height:22px; border:1px solid #484848; padding:5px 0px 0px 6px; color:#656565; font-weight:lighter; font-size:14px; background-color:#fcfcfc;}
+#welcomeFriend {background-color:#f8fafb;padding:20px 20px 40px 20px; min-height:175px;width:80%;}
+#welcomeFriend .col1 {background-color:#f8fafb;float:left;width:170px;}
+#welcomeFriend .col2 {background-color:#f8fafb;float:left;width:400px;padding:0px 0px 0px 35px;}
+#welcomeFriend .generalBullets {list-style:none;}
+#welcomeFriend .generalBullets li {list-style:none;margin:2px 0px 0px 0px;}
+#welcomeFriend .generalBullets li a{color:#2787c0; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:none;}
+#welcomeFriend .generalBullets li a:hover{color:#2787c0; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:underline;}
+#searchResults {font-size:13px;}
+#searchResults .col1 {width:160px;padding:20px 0px 0px 0px;}
+#searchResults .col2 {width:500px;padding:20px 0px 0px 0px;}
+#searchwrap {background-image:url(../img/searchBg.gif); width:817px; height:127px;padding:15px 20px 20px 20px; background-repeat:no-repeat;}
+#searchwrap p {color:white;font-size:14px; font-weight:lighter;margin:0px; padding:0px 0px 5px 0px;}
+.searchBox {width:500px;height:28px;font-size:22px; color:656565;padding:4px 0px 2px 5px;}
+.searchOptionTable {padding:5px;border-spacing:3px;color:white; font-size:13px;	}
+.addAnotherLink {width:93%;margin-bottom:30px;}
+.addAnotherLink a {color:#2C83AF !important;float:right;font-family:Arial;font-size:22px;font-weight:normal;text-decoration:none;}
+.addAnotherLink a:hover {text-decoration:underline;}
+/* CSS for the version table */
+#itsthetable table,
+#itsthetable table th,
+#itsthetable table td {border:none;border-collapse:collapse;font-family:corbel,'helvetica neue','trebuchet ms',arial,helvetica,sans-serif;font-size:.7em;line-height:1.5em;text-align:center;}
+#itsthetable table {background:#0073b7; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px; -webkit-box-shadow:1px 1px 10px rgba(0,0,0,0.3); -moz-box-shadow:1px 1px 10px rgba(0,0,0,0.3);width:110%;}
+#itsthetable table caption {	text-align:left; text-transform:uppercase; font-size:150%; font-weight:bold; padding:1.5em 0; color:#0073b7}
+#itsthetable table thead, 
+#itsthetable table tfoot	 {color:white; }
+#itsthetable table thead th { padding:0.5em 1em; text-transform:uppercase; text-align:left; }
+#itsthetable table thead th:first-child { width:10em; text-align:right; }
+#itsthetable table tbody td,
+#itsthetable table tbody th { font-size:100%; padding:0.5em 1em; background-color:#f2f6f9; vertical-align:top}
+#itsthetable table tbody th {color:#222;	text-align:right; background-image:url(tabel.png); background-repeat:repeat-y; border-right:1px solid #ccc}
+#itsthetable table tbody td:last-child {	border-right:1px solid #0073b7} 
+#itsthetable table tbody tr.odd th, 
+#itsthetable table tbody tr.odd td{background-color:#eee; color:#222}
+#itsthetable table tfoot td,
+#itsthetable table tfoot th {	border:none; padding:0.5em 1em 2em; font-size:130%}
+#itsthetable table tfoot th {	text-align:right}
+#itsthetable table table a:link { line-height:1em; color:#0073b7; display:inline-block; padding:3px 7px; margin:-3px -7px}
+#itsthetable table table a:visited { color:#555}
+#itsthetable table table a:hover	{ text-decoration:none; background:#0073b7; color:white; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px}
+#itsthetable table ::-moz-selection { background:#202020; color:white}
+#itsthetable table ::selection	 { background:#202020; color:white}
+#itsthetable table thead ::-moz-selection, 
+#itsthetable table tfoot ::-moz-selection { background:white; color:#202020}
+#itsthetable table thead ::selection,
+#itsthetable table tfoot ::selection { background:white; color:#202020}
